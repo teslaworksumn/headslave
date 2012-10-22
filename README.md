@@ -54,13 +54,14 @@ Unconnected address inputs are set to high.
 * The special value 0 switches the PWM signal off.
   * Most data servos then switch to standby - they no longer take countermeasures if external forces act on it
 
-Electrical Connections
-----------------------
+Circuit
+-------
 
-*Coming soon.*
+Check out the [wiki] for more information about the [circuit](https://github.com/teslaworksumn/headslave/wiki/Circuit).
 
 License
 -------
 This firmware is released under the GPL license.  
 See LICENSE.
 
+[wiki]: https://github.com/teslaworksumn/headslave/wiki "headslave wiki on GitHub"
