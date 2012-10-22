@@ -32,16 +32,18 @@ By default, the device address is 0b0001111.
 
 Connecting the address pins to ground can set the corresponding address bit low:
 
-ATtiny2313:
-    Pin 13 = a0
-    Pin 14 = a1
-    Pin 15 = a2
-    Pin 16 = a3
+##### ATtiny2313
 
-ATtiny26:
-    Pin 4 = a0
-    Pin 7 = a1
-    (a2 and a3 are always high)
+Pin 13 = a0  
+Pin 14 = a1  
+Pin 15 = a2  
+Pin 16 = a3  
+
+##### ATtiny26
+
+Pin 4 = a0  
+Pin 7 = a1  
+(a2 and a3 are always high)
 
 Unconnected address inputs are set to high.
 
