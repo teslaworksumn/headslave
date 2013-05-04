@@ -151,8 +151,8 @@ int main() {
     while (1) {
 
         // Enable driving SCL
-        DDRB |= 128;
-        PORTB |= 128;    
+        DDRB &= ~128;
+        //PORTB &= ~128;
         // SDA=input
         DDRB &= ~32;    
 
